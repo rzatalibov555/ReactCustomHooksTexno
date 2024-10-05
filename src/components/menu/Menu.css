@@ -1,0 +1,23 @@
+.navbar_r{
+    width: 100%;
+    min-height: 70px;
+    background: red;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Menu{
+    width: 300px;
+    height: 100vh;
+    background: blue;
+    float: left;
+    position: fixed;
+    right: -300px;
+    opacity: 0.5;
+    transition: 0.5s
+}
+
+.show_r{
+    right: 0px;
+}

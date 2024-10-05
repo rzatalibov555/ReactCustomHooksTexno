@@ -1,0 +1,17 @@
+:root{
+    --color:#c940da
+}
+
+
+.style{
+    margin: 7px;
+    color: var(--color);
+    cursor: pointer;
+}
+
+input[type="text"]{
+    outline: 1px solid var(--color);
+    border: none;
+    border-radius: 2px;
+    color: var(--color);
+}
